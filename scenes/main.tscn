@@ -1,9 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://dx0uwmmo1s082"]
+[gd_scene load_steps=3 format=3 uid="uid://dx0uwmmo1s082"]
 
 [ext_resource type="Texture2D" uid="uid://caudrfsq4r4wm" path="res://icon.svg" id="1_jhcev"]
+[ext_resource type="Texture2D" uid="uid://bwqoseii7koeb" path="res://7.png" id="2_8q6cf"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(-1, -2)
 texture = ExtResource("1_jhcev")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -16.0
+offset_top = -117.0
+offset_right = 432.0
+offset_bottom = 215.0
+texture = ExtResource("2_8q6cf")
